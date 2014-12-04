@@ -1,4 +1,9 @@
-module.exports.copy = undefined;
+module.exports.copy = function(obj){
+
+  var student = new Object();
+  student.name = obj.name;
+  return student;
+};
 
 module.exports.extend = undefined;
 
